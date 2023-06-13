@@ -22,7 +22,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    max-width: 50%;
+    max-width: 70%;
     border-bottom: 1px solid red;
     padding: 10px;
 }
@@ -64,7 +64,7 @@ body {
 
 .data {
     display: flex;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .column_left {
@@ -74,10 +74,13 @@ body {
     border-right: 1px solid rgb(255, 0, 0);
 }
 
+.info {
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+
 .personalinfo {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid rgb(255, 0, 0);
 }
 
 .lists {
@@ -120,8 +123,8 @@ li {
 .Profile {
     display: flex;
     flex-direction: column;
-    /* border-left: 1px solid rgb(255, 0, 0); */
     border-bottom: 1px solid rgb(255, 0, 0);
+    padding-bottom: 20px;
 }
 
 .Expirience {
@@ -148,6 +151,8 @@ div {
 
 .section_title {
     font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 li {
@@ -156,10 +161,6 @@ li {
 
 /* 730px */
 @media(max-width: 1250px) {
-    body {
-        padding: 0px;
-    }
-
     .data {
         flex-wrap: wrap;
     }
@@ -174,6 +175,9 @@ li {
 
     .section_title {
         font-size: 20px;
+    }
+    .Education{
+        border-bottom: 1px solid red;
     }
 }
 
